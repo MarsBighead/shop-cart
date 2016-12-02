@@ -1,6 +1,4 @@
-extends layout
+<h1><% message.err %></h1>
+<h2><% error.err %></h2>
+<pre>Error occurred!</pre>
 
-block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}

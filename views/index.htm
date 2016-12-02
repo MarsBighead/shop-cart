@@ -1,5 +1,6 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+<% include partials/header.htm %>
+<body>
+<% include partials/nav_head.htm %>
+<% include shop/index.htm %>
+</body>
+<% include partials/footer.htm %>
