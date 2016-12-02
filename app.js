@@ -8,8 +8,8 @@ var mongoose = require('mongoose');
 var ejs = require('ejs');
 //require('./models/word_model');
 
-//var configDB = require('./config/database');
-//mongoose.connect(configDB.url);
+var configDB = require('./config/database');
+mongoose.connect(configDB.url);
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
